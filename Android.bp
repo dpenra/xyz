@@ -25,7 +25,7 @@ android_app {
     platform_apis: true,
     privileged: true,
 
-    jni_libs: ["libqcomfmjni"],
+    jni_libs: ["libqcomfm_jni"],
 
     required: [
         "privapp_whitelist_com.android.fmradio_revamped.xml",
